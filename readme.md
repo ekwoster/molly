@@ -7,16 +7,16 @@
 Установить скрипт очень просто:
 
 1. Сначала нужно вставить в шапку HTML (внутрь тэга &lt;head&gt;) 2 строчки кода:
-<code>
+```
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="molly.js"></script>
-</code>
+```
 
 2. Поместить в корень сайта папку molly
 
 3. В файле molly/molly.submit.php указать свой имейл, на который будут приходить уведомления
 
 4. (по желанию) Можно добавить в нужно место сайта виджет "Нашли ошибку? Ctrl/Cmd + Enter":
-<code>
+```
 <script>show_molly_widget();</script>
-</code>
+```
